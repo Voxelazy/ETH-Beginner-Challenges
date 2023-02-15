@@ -7,7 +7,7 @@ contract Challenge1 {
     uint Storage = msg.value; // Global Variable
 
     function set(uint _multiplier, uint _multiplicand) public {
-        uint multiply = multiplier * multiplicand; // Local Variable
+        uint multiply = _multiplier * _multiplicand; // Local Variable
         product = multiply;
     }
 
