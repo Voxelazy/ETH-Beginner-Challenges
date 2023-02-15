@@ -3,16 +3,15 @@
 pragma solidity >=0.8.0 <0.9.0;
 
 contract Challenge1 {
-    // State Variable
-    uint public foo;
+    uint public product; // State Variable
+    uint storage = msg.value; // Global Variable
 
-    function set(uint _num) public {
-        uint number = 100; // Local Variable
-        number = foo;
-        foo = _num;
+    function set(uint multiplier, uint multiplicand) public {
+        uint multiply = multiplier * multiplicand; // Local Variable
+        product = multiply;
     }
 
     function get() public view returns (uint) {
-        return foo;
+        return product;
     }
 }
