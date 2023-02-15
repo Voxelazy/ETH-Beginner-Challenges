@@ -1,2 +1,2 @@
 # Metacrafters Solidity Challenges
-Solidity Beginner Course [Challenges 1-4] from Metacrafters
+These Are All The Challenges I've Done in The Solidity Beginner Course from Metacrafters
