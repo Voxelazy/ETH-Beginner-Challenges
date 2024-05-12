@@ -18,19 +18,19 @@ contract Calculator {
     }
 
     function subtract() public view returns(uint c) {
-        c = a + b;
+        c = a - b;
 
         return c;
     }
 
     function multiply() public view returns(uint c) {
-        c = a + b;
+        c = a * b;
 
         return c;
     }
 
     function divide() public view returns(uint c) {
-        c = a + b;
+        c = a / b;
 
         return c;
     }
